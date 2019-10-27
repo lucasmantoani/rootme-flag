@@ -63,3 +63,29 @@ hint: curl http://challenge01.root-me.org/web-serveur/ch32/
 hint: curl -X PUT http://challenge01.root-me.org/web-serveur/ch8/
 
 - a23e$dme96d3saez$$prap
+
+## Install files
+
+hint: phpbb/install/install.php 
+
+- karambar
+
+## File upload - Double extensions
+hint: poster le fichier upload.php et le changer en upload.php.png 
+
+- Gg9LRz-hWSxqqUKd77-_q-6G8
+
+## File upload - Type MIME
+hint: poster le fichier upload.php et le changer en upload.php%00.png 
+
+## HTTP - Cookies
+
+hint: utiliser curl 
+
+- curl http://challenge01.root-me.org/web-serveur/ch7/ --cookie "ch7=admin"  | cut -d '<' -f2  | cut -d ':' -f2
+
+- ml-SYMPA 
+
+## File upload - Null byte
+- utiliser le fichier nullbyte.php%00.png 
+- YPNchi2NmTwygr2dgCCF
